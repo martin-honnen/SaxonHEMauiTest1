@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="SaxonHEMauiTest1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:SaxonHEMauiTest1"
+    Title="SaxonHE 11.4 MAUI test"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        Title="SaxonHE 11.4 simple tests"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+</Shell>
