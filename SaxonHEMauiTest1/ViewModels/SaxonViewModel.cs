@@ -93,7 +93,7 @@ namespace SaxonHEMauiTest1.ViewModels
 
             string xsltCode = @"<xsl:stylesheet xmlns:xsl='http://www.w3.org/1999/XSL/Transform' version='3.0' expand-text='yes'>
   <xsl:template name='xsl:initial-template'>
-    <Test>Run with {system-property('xsl:product-name')} {system-property('xsl:product-version')}</Test>
+    <Test>Run with {system-property('xsl:product-name')} {system-property('xsl:product-version')} at {current-dateTime()}</Test>
   </xsl:template>
 </xsl:stylesheet>";
 
